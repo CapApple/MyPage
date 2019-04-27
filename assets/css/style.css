@@ -31,6 +31,21 @@ h2 {
     border-bottom: 2px solid #cccccc;
 }
 
+table{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#social{
+    color: #777777;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#linkedin{
+    margin-left: 15px;
+}
+
 .row {
     height: 100%;
 }
@@ -56,10 +71,6 @@ li+li {
 .main {
     margin: 0;
     padding-bottom: 0;
-    /* background-image: url("../images/wavegrid/wavegrid_@2X.png"); */
-    /* Please HELP! 
-    Something is very weird here. I have to add a clear border to the main div, otherwise there will be a gap between the main div and the head div. */
-    /* border: 1px solid transparent; */
 }
 
 .content {
@@ -119,16 +130,41 @@ h6 {
 }
 
 .card{
-    margin: 10px;
+    /* margin: 10px 0 10px 0; */
     box-shadow: 1px 1px 2px 1px #888888;
 }
+
+.left{
+    margin: 10px 20px 20px 0;
+}
+
+.right{
+    margin: 10px 0 20px 20px;
+}
+
+.mid{
+    margin: 10px;
+}
+
+
 
 .card:hover{
     box-shadow: 2px 2px 4px 2px #681722;
 }
 
+.card-title{
+    font-size: 20px;
+    height: 46px;
+}
+
 .card-text{
+    font-size: 14px;
     height: 48px;
+}
+
+.image-ratio{
+    width: 100%;
+    padding-bottom: 8%;
 }
 
 .btn{
