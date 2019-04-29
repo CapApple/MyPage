@@ -9,7 +9,8 @@
     <link rel="icon" href="personal-logo.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
@@ -25,9 +26,9 @@
             <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
             <div class="col-xs-0 col-sm-0 col-md-5 col-lg-6 navigation">
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" id="rightLink" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" id="rightLink" href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="col-xs-0 col-sm-0 col-md-1 col-md-1"></div>
@@ -46,7 +47,7 @@
                         <div class="my-info">
                             <h3>Jeremy Cai</h3>
                             <h5>fullstack developer</h5>
-                    
+
                             <table>
                                 <tr>
                                     <th>AGE:</th>
@@ -66,8 +67,9 @@
                                 </tr>
                             </table>
                             <p id="social">
-                                <span id="github"><a href = "https://github.com/CapApple" target = "_blank"><i class="fab fa-github fa-lg"></i></a></span>
-                                <span id="linkedin"><a href = "https://www.linkedin.com/in/jeremy-cai-a29b9359/" target = "_blank"><i class="fab fa-linkedin fa-lg"></i></a></span>
+                                <span id="github"><a href="https://github.com/CapApple" target="_blank"><i class="fab fa-github fa-lg"></i></a></span>
+                                <span id="linkedin"><a href="https://www.linkedin.com/in/jeremy-cai-a29b9359/" target="_blank"><i
+                                            class="fab fa-linkedin fa-lg"></i></a></span>
                             </p>
 
                         </div>
@@ -89,12 +91,72 @@
                         <article>
                             <h2>About Me</h2>
                             <hr>
-                            <p>I am Junior Web developer able to build a Web presence from the ground up - from
-                                concept, navigation, layout and programming to UX and SEO. Skilled at writing
-                                well-designed, testable and efficient code using current best practices in Web
-                                development. Fast learner, hard worker and team player who is proficient in an array of
-                                scripting languages and multimedia Web tools.</p>
+                            <p>I am a full stack developer able to build a user-friendly web presence from the ground
+                                up - from
+                                concepting, implementing UI design to building the logics and databases behind the
+                                application.
+                                <br>
+                                I am proficient with the latest technologies and tools and I am absolutely passionate
+                                about learning and researching.
+                                I enjoy what I do. The idea of bringing a concept to reality, providing the users with
+                                elegant visual designs and
+                                fabulous experiences simply facinates me.
+                                <br>
+                                I love approaching programming challenges from different angles and collaborating with
+                                team.
+                                <br><br>
+                                <a href="assets/Jeremy Cai .pdf" target="_blank"><button class='download'><i class="fas fa-download"></i> DOWNLOAD RESUME</button></a>
+                            </p>
                         </article>
+                        <br><br>
+                        <div>
+                            <h2>Core Skills</h2>
+                            <hr>
+                            <div class="row skills desktop">
+                                <div class="col-4 list">
+                                    <ul>
+                                        <li>HTML/CSS</li>
+                                        <li>bootstrap</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 list">
+                                    <ul>
+                                        <li>AJAX</li>
+                                        <li>Node.js</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 list">
+                                    <ul>
+                                        <li>MongoDB</li>
+                                        <li>Java</li>
+                                        <li>Git</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row skills mobile">
+                                <div class="col-6 list">
+                                    <ul>
+                                        <li>HTML/CSS</li>
+                                        <li>bootstrap</li>
+                                        <li>JavaScript</li>
+                                        <li>AJAX</li>
+                                        <li>Node.js</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 list">
+                                    <ul>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                        <li>Java</li>
+                                        <li>Git</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
                 </div>
@@ -179,11 +241,12 @@
                                 <div class="card-container">
                                     <div class="card right">
                                         <div class="image-ratio">
-                                            <img class="card-img-top" src="assets/images/portfolio/bamazonCustomer.gif" alt="screenshot">
+                                            <img class="card-img-top" src="assets/images/portfolio/bamazonCustomer.gif"
+                                                alt="screenshot">
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Bamazon</h5>
-                                            <p class="card-text">A cli app built with mySql and node js.<br></p>
+                                            <p class="card-text">A cli app built with MySQL and node js.<br></p>
                                             <a href="https://capapple.github.io/Train_Time/" class="btn btn-secondary"
                                                 target="_blank">try me</a>
                                         </div>
